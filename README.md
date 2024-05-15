@@ -1,37 +1,22 @@
-# FinRL
+# rl-zoo
 
-#### 介绍
-量化交易+深度强化学习项目。使用DRL智能体进行投资决策，最大化累计奖励值。实现算法有DQN\DDQN\DDPG\TD3\SAC\PPO\REDQ-DDPG\REDQ-SAC\OFENet等模型。交易市场为美股道琼斯工业指数市场。任务包含交易任务和资产分配任务。
+**Contributors**: [三 水](https://github.com/TaciturnMute)
 
-#### 软件架构
-软件架构说明
+:bell: If you have any suggestions or notice something I missed, please don't hesitate to let me know. You can directly email **San Shui** (wenhao19990616@gmail.com), or post an issue on this repo.
 
 
-#### 安装教程
+## 项目介绍
 
-1.  xxxx
-2.  xxxx
-3.  xxxx
-
-#### 使用说明
-
-1.  xxxx
-2.  xxxx
-3.  xxxx
-
-#### 参与贡献
-
-1.  Fork 本仓库
-2.  新建 Feat_xxx 分支
-3.  提交代码
-4.  新建 Pull Request
+**三 水**个人贡献项目。参考stable-baselines3风格，实现基本DRL算法。可作为其他场景下的项目代码基础。
 
 
-#### 特技
+## 
+It's a new dawn
 
-1.  使用 Readme\_XXX.md 来支持不同的语言，例如 Readme\_en.md, Readme\_zh.md
-2.  Gitee 官方博客 [blog.gitee.com](https://blog.gitee.com)
-3.  你可以 [https://gitee.com/explore](https://gitee.com/explore) 这个地址来了解 Gitee 上的优秀开源项目
-4.  [GVP](https://gitee.com/gvp) 全称是 Gitee 最有价值开源项目，是综合评定出的优秀开源项目
-5.  Gitee 官方提供的使用手册 [https://gitee.com/help](https://gitee.com/help)
-6.  Gitee 封面人物是一档用来展示 Gitee 会员风采的栏目 [https://gitee.com/gitee-stars/](https://gitee.com/gitee-stars/)
+It's a new day 
+
+It's a new life 
+
+For me
+
+And I'm feeling good.
