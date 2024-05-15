@@ -1,0 +1,24 @@
+"""
+DualingFore类的net_arch参数中的layer都表示隐藏层。
+DualingFore构造的网络接收特征，输出特征。具体的价值或动作的生成需要在Actor和Critic或Policy中具体写出。
+DualingFore的share net和分支net可以是空，表示不存在对应的处理过程，输入直接为输出。
+
+参数格式： net_arch = [{'vf':[], 'qf':[], 128, 128}]
+
+DualingFore_StateAction
+    ***********            ************
+     State Net              Action Net
+    ***********            ************
+         |                      |
+     latent_vf              latent_qf
+         |______________________|
+                    |
+          **********************
+             Actor Shared Net
+          **********************
+                    |
+                 q value
+
+
+
+"""

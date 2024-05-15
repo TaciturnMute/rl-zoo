@@ -1,0 +1,53 @@
+"""
+DualingPost类的net_arch参数中的layer都表示隐藏层。
+DualingPost构造的网络接收特征，输出特征。具体的价值或动作的生成需要在Actor和Critic或Policy中具体写出。
+DualingPost的share net和分支net可以是空，表示不存在对应的处理过程，输入直接为输出。
+
+DualingPost_ActorCritic
+            ************************
+             ActorCritic shared net
+            ************************
+                        |
+                        |
+                  latent feature
+            ____________|___________
+            |                      |
+     ***************         ****************
+        Critic Net              Actor Net
+     ***************         ****************
+            |                       |
+     latent_feature         mean_action, log_std
+
+
+DualingPost_MeanStd
+            ************************
+                Actor shared Net
+            ************************
+                        |
+                        |
+                  latent feature
+            ____________|___________
+            |                      |
+     ***************         ***************
+     Mean_Action Net           Log_Std Net
+     ***************         ***************
+            |                      |
+        mean_action             log_std
+
+DualingPost_ValueAdvantage
+            ************************
+                Q-Net shared Net
+            ************************
+                        |
+                        |
+                  latent feature
+            ____________|___________
+            |                      |
+     ***************         ***************
+        Value Net             Advantage Net
+     ***************         ***************
+            |                      |
+        vf feature             af feature
+
+
+"""
